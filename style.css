@@ -1,0 +1,160 @@
+/* #region assign1 */
+/* div{
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgb(137, 43, 226);
+}
+div.assign-1-shape-2{
+    background-color: rgb(138, 43, 226, 50% ); 
+    /* background-color: rgba(138, 43, 226, 0.5 );  
+}*/
+/*div.assign-1-shape-3{
+     background-color: rgb(138, 43, 226,10%);
+    /* background-color: rgba(138, 43, 226,0.1); 
+} */
+/* #endregion assign1 */
+
+/* #region assign2 */
+/* div{
+    width: 400px;
+    height: 400px;
+    background-image: url(./assests/assign2.png);
+    background-color: azure;
+    margin: 10px;
+    display: inline-block;
+}
+div.assign-2-shape-1{
+    background-repeat: no-repeat;
+}
+div.assign-2-shape-2{
+    background-repeat: repeat-y;
+}
+div.assign-2-shape-3{
+    background-repeat: repeat-x;
+}
+div.assign-2-shape-4{
+    background-repeat: repeat;
+} */
+/* #endregion assign2 */
+
+/* #region assign3 */
+/* div{
+    width: 400px;
+    height: 400px;
+    background-image: url(./assests/assign2.png);
+    background-color: azure;
+    margin: 10px;
+    display: inline-block;
+}
+div.assign-3-shape-1{
+    background-repeat: no-repeat;
+}
+div.assign-3-shape-2{
+    background-repeat: repeat-y;
+    background-position:  right;
+}
+div.assign-3-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
+div.assign-3-shape-4{
+    background-repeat: repeat;
+} */
+/* #endregion assign3 */
+
+
+/* #region assign4 */
+/* div{
+    width: 400px;
+    height: 400px;
+    background-image: url(./assests/assign2.png);
+    background-color: azure;
+    margin: 10px;
+    display: inline-block;
+}
+div.assign-4-shape-1{
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+div.assign-4-shape-2{
+    background-repeat: repeat-y;
+    background-position:  right;
+    background-size: 80%;
+}
+div.assign-4-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+
+}
+div.assign-4-shape-4{
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+} */
+/* #endregion assign4 */
+
+
+/* #region assign5 */
+/* div{
+    display: inline-block;
+    margin: 10px;
+    outline: 5px solid #000;
+    background-color: gray;
+    padding: 10px;
+}
+div.assign-5-shape-1{
+    border: 5px solid #ff0000;
+}
+div.assign-5-shape-2{
+    border-top: 5px solid #0000ff ;
+    border-bottom: 5px solid #0000ff;
+    border-right: 5px solid #00ff00;
+    border-left: 5px solid #00ff00;
+}
+div.assign-5-shape-3{
+    border-top: 5px dashed #ff0000   ;
+    border-right: 5px dashed #00ff00;
+    border-bottom: 5px dashed #0000ff;
+    border-left: 5px dashed #eeff05;
+} */
+/* #endregion assign5 */
+
+/* #region assign6 */
+div{
+    margin: 10px auto;
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+    width: 400px;
+   position: relative;
+}
+div.assign-6-shape-1::before{
+ content: "";
+ position: absolute;
+ left: 10px;
+ top: 0px;
+ bottom: 0px;
+ height: 80%;
+ align-self: center;
+ width: 5px ;
+ background-color: red;
+ 
+}
+div.assign-6-shape-2{
+   visibility: hidden;
+}
+div.assign-6-shape-3::before{
+ content: "";
+ position: absolute;
+  left: 10px;
+ top: 0px;
+ bottom: 0px;
+ height: 80%;
+ align-self: center;
+ width: 5px ;
+    background-color:  green ;
+}
+
+/* #endregion assign6 */
