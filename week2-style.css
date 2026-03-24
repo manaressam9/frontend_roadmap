@@ -1,0 +1,156 @@
+/* #region assign1 */
+.week2 .child .title{
+    color: red
+}
+.week2 .parent > .title{
+    color: blue
+}
+.week2 .parent p,
+.week2 div.title{
+    color: green
+}
+/* #endregion assig1 */
+
+/* #region assign2 */
+ .week2 .text-cap{
+    text-transform: capitalize;
+ }
+ .week2 .bg-red{
+    background-color: rgb(108, 2, 2);
+    padding: 10px;
+    margin-bottom:10px;
+    max-width: 400px;
+    max-height: 40px;
+    color:white;
+    overflow: hidden;
+   
+ }
+/* #endregion assign2 */
+
+/* #region assign3 */
+.week2 h3{
+    color: black;
+    text-shadow: 0.5px 0.5px 0px red, 1px 1px 0px  blue, 1.5px 1.5px 0px purple;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+/* #endregion assign3 */
+
+/* #region assign4 */
+
+.week2 .assign4 p{
+    text-align: center;
+   font-family: sans-serif;
+}
+.week2 p.one{
+    text-transform: uppercase;
+}
+.week2 p.two{
+    text-transform: capitalize;
+}
+.week2 p.three{
+    text-transform: lowercase;
+}
+/* #endregion assign4 */
+
+/* #region assign5 */
+
+.week2 div.assign5{
+    background-color: rgba(175, 175, 175, 0.721);
+    padding: 15px;
+    width: 400px;
+    /* height: 20px; */
+    font-family: sans-serif;
+    line-height: 120%;
+    white-space: nowrap;      /* prevent wrapping */
+    overflow: hidden;         /* hide extra text */
+    text-overflow: ellipsis;  /* show ... */
+
+}
+/* #endregion assign5 */
+
+/* #region assign6 */
+div.assign6 {
+    text-align: center;
+    margin: 20px auto;
+    
+}
+div.assign6 a{
+    display: inline-block;
+    background-color: rgb(7, 146, 127);
+    border-bottom:5px solid  rgb(3, 68, 59);
+    text-transform: capitalize;
+    color: white;
+    padding: 20px;
+    width: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+}
+/* #endregion assign6 */
+
+/* #region assign7 */
+div.assign7{
+    border: 2px solid rgb(255, 0, 212);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+div.assign7 p{
+    
+    font-family: sans-serif;
+    background-color: rgb(186, 186, 186);
+    border:inherit;
+    padding:inherit
+
+}
+/* #endregion assign7 */
+
+/* #region assign8 */
+@font-face {
+    font-family: 'cairo';
+    src: url('assests/fonts/Cairo/Cairo-VariableFont_slnt_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Jomhuria';
+    src: url('assests/fonts/Jomhuria/Jomhuria-Regular.ttf') format('truetype');
+}
+div.assign8 p{
+    text-transform: capitalize;
+}
+div.assign8 .f1{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+div.assign8 .f2{
+    font-family: 'cairo';
+    font-weight: 700;
+}
+div.assign8 .f3{
+    font-family: 'Jomhuria';
+    font-weight: 400;
+}
+/* #endregion assign8 */
+
+/* #region assign9 */
+html{
+    font-size: 20px;
+}
+div.assign9 p{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+div.assign9 .f1{
+    font-size: 2.5rem;
+}
+div.assign9 .f2{
+    font-size: 2rem;
+}
+div.assign9 .f3{
+    font-size: 1.5rem;
+}
+/* #endregion assign9 */
